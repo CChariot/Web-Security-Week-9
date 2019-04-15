@@ -37,3 +37,19 @@ Vulnerability #2 - Cross-Site Scripting (XSS): <br />
 * Attackers can perform xss under feedback section. In this example: \<script\>alert('xss');\</script\> <br />
 GIF Walkthrough: <br />
 <img src="https://github.com/sengfung27/Web-Security-Week-9/blob/master/xss.gif" width="800">
+
+## Red
+
+Vulnerability #1 - Insecure Direct Object Reference (IDOR): <br />
+* Search salesperson by changing ID under the salesperson page: https://35.184.88.145/red/public/salesperson.php?id=X.
+  
+GIF Walkthrough: <br />
+<img src="https://github.com/sengfung27/Web-Security-Week-9/blob/master/idor.gif" width="800">
+
+Vulnerability #2 -  Cross-Site Request Forgery (CSRF)
+* Attacker can perform csrf due to token is not verified by the server.
+GIF Walkthrough: <br />
+<img src="https://github.com/sengfung27/Web-Security-Week-9/blob/master/csrf.gif" width="800">
+
+
+
