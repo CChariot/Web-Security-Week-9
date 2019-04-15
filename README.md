@@ -24,4 +24,16 @@ GIF Walkthrough: <br />
 Vulnerability #2 -  Session Hijacking/Fixation:  <br />
 * Attackers can reuse the session id after login on other browser as logged in user.
 GIF Walkthrough: <br />
-<img src="https://github.com/sengfung27/Web-Security-Week-9/blob/master/session-hijacking.gif" width="700">
+<img src="https://github.com/sengfung27/Web-Security-Week-9/blob/master/session-hijacking.gif" width="800">
+
+## Green
+
+Vulnerability #1 - Username Enumeration: <br />
+* "Login was unsuccessful" is bold if username appeared in the database
+GIF Walkthrough: <br />
+<img src="https://github.com/sengfung27/Web-Security-Week-9/blob/master/user-enumeration.gif" width="800">
+
+Vulnerability #2 - Cross-Site Scripting (XSS): <br />
+* Attackers can perform xss under feedback section. In this example: \<script\>alert('xss');\</script\> <br />
+GIF Walkthrough: <br />
+<img src="https://github.com/sengfung27/Web-Security-Week-9/blob/master/xss.gif" width="800">
