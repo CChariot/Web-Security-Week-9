@@ -13,3 +13,10 @@ The six possible exploits are:
 * Session Hijacking/Fixation
 
 Each version of the site has been given two of the six vulnerabilities. (In other words, all six of the exploits should be assignable to one of the sites.)
+
+## Blue
+
+Vulnerability #1 - SQL Injection (SQLi):  <br />
+* In "salesperson" page, SLEEP command is injected to the database. 
+GIF Walkthrough: <br />
+<img src="https://github.com/sengfung27/Web-Security-Week-9/blob/master/sqli.gif" width="800">
