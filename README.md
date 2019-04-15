@@ -20,3 +20,8 @@ Vulnerability #1 - SQL Injection (SQLi):  <br />
 * In "salesperson" page, SLEEP command is injected to the database. 
 GIF Walkthrough: <br />
 <img src="https://github.com/sengfung27/Web-Security-Week-9/blob/master/sqli.gif" width="800">
+
+Vulnerability #2 -  Session Hijacking/Fixation:  <br />
+* Attackers can reuse the session id after login on other browser as logged in user.
+GIF Walkthrough: <br />
+<img src="https://github.com/sengfung27/Web-Security-Week-9/blob/master/session-hijacking.gif" width="700">
