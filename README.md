@@ -47,7 +47,7 @@ GIF Walkthrough: <br />
 <img src="https://github.com/sengfung27/Web-Security-Week-9/blob/master/idor.gif" width="800">
 
 Vulnerability #2 -  Cross-Site Request Forgery (CSRF)
-* Attacker can perform csrf due to token is not verified by the server.
+* Attacker could design a form which would automatically submit form data to the staff area and take advantage of a logged in user's access permissions.
 GIF Walkthrough: <br />
 <img src="https://github.com/sengfung27/Web-Security-Week-9/blob/master/csrf.gif" width="800">
 
